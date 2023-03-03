@@ -12,6 +12,6 @@ test("return reversed string", () => {
   expect(reverseString("hello")).toBe("olleh");
 });
 
-// test("Capitalization check", () => {
-//   expect(capitalize("alemu")).toBe("Alemu");
-// });
+test("Capitalization check", () => {
+  expect(capitalize("alemu")).toBe("Alemu");
+});
